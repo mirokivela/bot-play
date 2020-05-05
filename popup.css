@@ -1,0 +1,141 @@
+p, span{
+    color: wheat;
+}
+html, body {
+    background: #2D3142;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    min-height: 180px;
+    padding: 0;
+    width: 300px;
+}
+h1 {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 25px;
+    font-size: 400;
+    margin: 0;
+    color:#f6b93b;
+    
+}
+h3 {
+    color:#f6b93b;
+}
+a:link, a:visited{
+    color: black;
+    outline: 0;
+    text-decoration: none;
+}
+
+.title{
+    padding-top: 20px;
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: center;
+    
+}
+.modal-header{
+    align-items: center;
+    border-bottom: 0.5px solid #969696;
+    text-align: center;
+    vertical-align: middle;
+}
+.modal-content {
+    padding: 0 22px;
+    text-align: center;
+}
+.modal-icons {
+    margin-top: 25px;
+    margin-bottom: auto;
+    border-top: 0.5px solid #969696;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+.logo{
+    padding: 16px;
+    line-height: 0.5;
+}
+.logo-icon{
+    vertical-align: text-bottom;
+    margin-right: 0px;
+}
+.version{
+    color: rgb(124, 124, 124);
+    font-size: 9px;
+}
+.flex-container {
+    display: inline-block;
+    vertical-align: middle;
+    justify-content: space-between;
+    padding: 10px 22px;            
+}
+.flex{
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+}
+.flex:hover {
+    opacity: 0.4;
+}
+.flex .fab {
+    font-size: 40px;
+    color: #f6b93b;
+    vertical-align: middle;
+}
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.input-field {
+    font-size: 24px;
+    color: #d8d8d8;
+    width: 100%;
+    padding: 4px;
+    padding-left: 20px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid #d8d8d8;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.icon {
+    padding: 10px;
+    background: #f6b93b;
+    color: rgb(34, 34, 34);
+    min-width: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.input-field:focus {
+    border: 2px solid #f6b93b;
+}
+
+.example_c {
+    color: #dfdfdf !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: transparent;
+    padding: 18px;
+    border: 4px solid #d8d8d8 !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+}
+
+.example_c:hover {
+    color: #ffffff !important;
+    background: #f6b93b;
+    border-color: #f6b93b !important;
+    transition: all 0.4s ease 0s;
+}
+
+
+img{
+    width: 60px;
+    margin-left: 20px;
+}
