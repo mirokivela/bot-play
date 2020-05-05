@@ -6,5 +6,5 @@ Adds a button to the Youtube UI.
 ### To do:
 
 * Fix -undefined error
-* Add info-popoup
+* Add info-popup
 * Better documentation
